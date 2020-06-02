@@ -1,0 +1,69 @@
+.big-nav a.icon-user-data:before {
+  background-position: 2px -1592px;
+}
+.big-nav a.icon-user-data:hover:before,
+.big-nav a.icon-user-data.hover:before {
+  background-position: -45px -1592px;
+}
+@media  (-webkit-min-device-pixel-ratio: 1.25), (-moz-min-device-pixel-ratio: 1.25), (-o-min-device-pixel-ratio: 3/2), (min-device-pixel-ratio: 1.25) {
+  .big-nav a.icon-user-data:before {
+    background-image: url("../i/sprites@2x.png") !important;
+    background-size: 100px !important;
+    background-position: 3px -2444px;
+  }
+  .big-nav a.icon-user-data:hover:before,
+  .big-nav a.icon-user-data.hover:before {
+    background-position: -97px -2444px;
+  }
+}
+.mvk-alphabet {
+  position: relative;
+}
+.mvk-alphabet__switchers {
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+.mvk-alphabet__switchers:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.mvk-alphabet__switchers li {
+  margin: 0;
+  padding: 0;
+  float: left;
+  list-style: none;
+}
+.mvk-alphabet__switchers__item {
+  font-size: 18px;
+  font-weight: bold;
+  color: #146ab0;
+  padding: 20px;
+  cursor: pointer;
+  display: inline-block;
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+.mvk-alphabet__switchers__item.is-active {
+  color: #000000;
+  background: #f4f4f4;
+  cursor: inherit;
+}
+.mvk-alphabet__switchers__item.is-hidden {
+  color: #929292;
+  cursor: inherit;
+}
+.mvk-alphabet__item {
+  display: none;
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+.mvk-alphabet__item.is-active {
+  display: block;
+}
